@@ -1,0 +1,295 @@
+/*=========common css=======*/
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 80%;
+     margin: 0 auto;
+    
+     
+  
+}
+img{
+    width: 100%;
+    height: auto;
+}
+/*=====main css====*/
+.header-area{
+    background: #f6f9f9;
+    padding: 20px 0;
+    overflow: hidden;
+}
+
+.logo{
+    float:left;
+    width:10%;
+   
+}
+.logo img{}
+.menu{ float: left;
+width: 70%;
+margin-left: 20%;}
+.menu ul{
+    display: flex;
+}
+.menu ul li{
+    list-style: none;
+    color: #222222;
+    padding:10px 20px;
+    display: block;
+    font-size:15px;
+  
+}
+.menu ul li a{
+    text-decoration: none;
+
+}
+/*====header end-===*/
+.baner-area{
+    background: url(img/baner.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        overflow: hidden;
+}
+.baner-text{
+    margin-bottom: 50px;
+    padding: 110px 0;
+    text-align: center;
+   
+    overflow: hidden;
+}
+.baner-text h1{
+    color: #ffffff;
+    font-weight: bold;
+    margin-bottom: 40px;
+   
+}
+.baner-text span{
+   
+    color: #ffffff;
+    font-size: 14px;
+    border-top: #15a4fa  1px solid;
+    padding: 40px;
+    display: inline-block;
+   
+}
+.butten{
+   padding: 40px;
+}
+.butten a{
+    color: #f6f9f9;
+    border: #248bcb 2px solid;
+    border-radius: 3px;
+    padding: 10px 15px;
+   }
+   /*====baner end-===*/
+   .about-area{
+    background: #f6f9f9;
+    padding: 50px 0
+   }
+   .about-text{
+       text-align: center;
+   }
+   .about-text h2{
+       color: #474949;
+       padding-bottom: 40px;
+   }
+   .about-text p{
+       color: rgb(158, 155, 155);
+       font-size: 14px;
+       font-style: italic;
+   }
+   /*====about end-===*/
+   .service-area{}
+   .services{ 
+       display: flex;
+       justify-content: space-between;
+   }
+   .service{
+       width: 32%;
+       padding: 30px 0;
+   }
+   .service-icon{
+       background: dodgerblue;
+       width: 25px;
+       height: 25px;
+      padding: 20px;
+       margin: 0 auto;
+    
+   }
+   .service-icon img{}
+   .service-text{
+       text-align: center;
+   }
+   .service-text h4{
+       margin-top: 15px;
+       color: rgb(78, 78, 78);
+   }
+   .service-text p{
+       font-size: 15px;
+       color: rgb(109, 109, 106);
+       padding: 10px 25px;
+   }
+
+    /*====service end-===*/
+
+    .protfolio-area{
+        background: #f6f9f9;
+        
+      
+    }
+    .protfolio-text{
+        text-align: center;
+        padding: 70px 0;
+    }
+    .protfolio-text h2 {
+        color: #474949;
+        padding: 20px 0;
+        font-size: 30px;
+    }
+    .protfolio-text p{
+        color: rgb(158, 155, 155);
+        font-size: 14px;
+        font-style: italic;
+    }
+    .protfolio-img-area{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+       
+    }
+    .protfolio-img{
+        width: 32%;
+        overflow: hidden;
+        position: relative;
+        margin-bottom: 8px;
+    }
+    
+   
+    
+    
+    
+    .protfolio-img-area .protfolio-overlay{   
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 100%;
+        left: 0;
+       display: flex;
+       justify-content: center;
+       transition: .8s;
+       
+      
+       
+       
+        
+        
+    }
+    .protfolio-img-area .protfolio-overlay  img{
+        background: dodgerblue;
+        width: 15px;
+       height: 15px;
+       padding: 10px;
+       margin-top: 30%;
+      
+       
+     
+    }
+    .protfolio-img:hover .protfolio-overlay {
+        top:0;
+        background:rgba(70, 125, 180, .6); 
+        
+    }
+    /*====protfolio end-===*/
+    .contact-section{}
+    .contact-area{
+        background: url(img/protfolio.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background: height 100vh;
+    }
+    .contact-overlay{
+        background: rgba(114, 113, 113, .8);
+        transition: .7s;
+    }
+    .contact-title{
+        text-align: center;
+        padding: 60px 0;
+    }
+    .contact-title h2{
+        font-size: 40px;
+        font-weight: bold;
+        color: #f6f9f9;
+        
+    }
+    .contact-title p{
+        color: #f6f9f9;
+        font-size: 15px;
+        margin: 20px 0;
+    }
+    
+    .from-group{
+        width: 40%;
+        margin: 0 auto;
+       
+     }
+     .from-group  input ,textarea{
+         width: 100%;
+         padding: 10px 10px;
+         margin: 3px;
+         background-color: transparent;
+         font-size: 20px;
+         text-transform: capitalize;
+         border: 1px solid rgb(218, 217, 217);
+         border-radius: 3px;
+     }
+        
+    
+    .from-button{
+        width: 40%;
+        margin: 0 auto;
+        display: flex;
+        
+        justify-content: space-between;
+    }
+    .button-left{
+       color: #f6f9f9;
+       font-size: 17px;
+       padding: 10px 0;
+    }
+   .button-right input{
+       color: #f6f9f9;
+       background:transparent;
+       padding: 8px 20px;
+   }
+   /*---fotter end---*/
+   .fotter-area{
+       display: flex;
+       padding: 20px 30px;
+       background: #f6f9f9;
+
+   }
+   .fotter-text{}
+   .fotter-icon{
+       width: 80%;
+   }
+   .fotter-icon ul{
+       display: flex;
+       float: right;
+      
+   }
+   .fotter-icon ul li{
+       list-style: none;
+       padding: 10px;
+       background: dodgerblue;
+        width: 12px;
+       height: 15px;
+       padding: 10px;
+       margin: 5px;
+   }
+   .fotter-icon ul li .icon-f{
+    
+   }
