@@ -1,0 +1,105 @@
+@media(max-width: 768px){
+
+.logo{
+    
+    width:15%;
+   
+}
+.menu-icon{
+      
+       display: block;
+}
+
+.menu{ 
+       display: none;
+       float: right;
+       width: 10%;
+      margin-left: 0;
+}
+.menu ul{
+       background: rgba(131, 156, 231, .7);
+       display: block;
+       position: absolute;
+       top:45px;
+       right: 40px;
+   }
+   .menu ul li{
+          padding: 8px 35px;
+   }
+
+
+.services{ 
+       display: block;
+}
+ .service{
+       width: 100%;
+      padding: 30px 20px;
+ }
+ .protfolio-img{
+        width: 48%;
+ }
+.from-group{
+        width: 80%;
+        margin: 0 auto;
+       
+     }
+	  .from-button{
+        width: 80%;
+
+    }
+.fotter-icon{
+       width: 60%;
+}
+
+}
+
+@media(max-width:576px){
+	.services{ 
+       display: block;
+}
+ .service{
+       width: 100%;
+      padding: 30px 20px;
+ }
+
+.service-icon{
+       background: dodgerblue;
+       width: 20px;
+       height: 20px;
+      padding: 10px;
+       margin: 0 auto;
+}
+.protfolio-img{
+        width: 100%;
+ }
+ .contact-title h2{
+        font-size: 30px;
+        font-weight: bold;
+        color: #f6f9f9;
+        
+    }
+    .contact-title p{
+        color: #f6f9f9;
+        font-size: 15px;
+        margin: 10px 0;
+    }
+    
+    .from-group{
+        width: 90%;
+        margin: 0 auto;
+       
+     }
+	  .from-button{
+        width: 90%;
+        margin: 0 auto;
+        display: block;
+        
+    }
+	
+	.fotter-icon{
+       width: 60%;
+	   
+	  
+   }
+   
+}
